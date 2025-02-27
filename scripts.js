@@ -29,3 +29,10 @@ for (let i = 0; i < svgs.length; i++) {
 
 // fifth section
 document.querySelector("#query .bold").style.color = "#7C9EA6";
+
+// sixth section
+document.querySelector(".content_list li:first-of-type").textContent = "This is new list item text";
+document.querySelectorAll(".content_list li")[2].innerHTML += " <strong>Michelle Chong</strong>";
+
+// seventh section
+document.querySelector("#remove a").removeAttribute("hidden");
